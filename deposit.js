@@ -4,7 +4,6 @@ const Deposit = ({ onChange }) => {
     <div className="label huge">
       <h3>Deposit 💰 </h3>
       <input type="number" width="200" onChange={onChange}></input>
-      <button type="submit">Submit</button>
     </div>
   );
 };
