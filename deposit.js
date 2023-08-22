@@ -36,7 +36,7 @@ const Account = () => {
   return (
     <div className="container mt-5">
       <div className="card">
-        <div className="card-header">Account</div>
+        <div className="card-header">Deposit</div>
         <div className="card-body">
           <form onSubmit={handleSubmit}>
             <h2>{status}</h2>
