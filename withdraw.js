@@ -4,7 +4,6 @@ const Withdraw = ({ onChange }) => {
     <div className="label huge">
       <h3>Withdrawal 💸 </h3>
       <input type="number" width="200" onChange={onChange}></input>
-      <button type="submit">Submit</button>
     </div>
   );
 };
@@ -42,14 +41,6 @@ const Account = () => {
           <form onSubmit={handleSubmit}>
             <h2>{status}</h2>
             {isWithdraw && <p>{balanceStatus}</p>}
-            <button
-              type="button"
-              className="btn btn-primary mb-3"
-              onClick={() => setIsWithdraw(true)}
-            >
-              Withdrawal
-            </button>
-            <Deposit onChange={handleChange} />
             <input type="submit" className="btn btn-success" value="Submit" />
           </form>
         </div>
