@@ -49,7 +49,6 @@ const Account = () => {
               Deposit
             </button>
             <Deposit onChange={handleChange} />
-            <input type="submit" className="btn btn-success" value="Submit" />
           </form>
         </div>
       </div>
