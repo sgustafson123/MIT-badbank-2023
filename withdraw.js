@@ -4,7 +4,6 @@ const Withdraw = ({ onChange }) => {
     <div className="label huge">
       <h3>Withdrawal 💸 </h3>
       <input type="number" width="200" onChange={onChange}></input>
-      <button type="submit">Submit</button>
     </div>
   );
 };
